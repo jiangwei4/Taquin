@@ -1,0 +1,87 @@
+	body {
+	background: #FAFAFA;
+	font-family: arial;
+	color: black;
+	}
+	
+	fieldset.legend {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	}
+	
+	fieldset {
+	border: 1px solid #CCC.
+	padding-bottom: 10px;
+	}
+	
+	fieldset:hover{background: #FFF; color: purple;} 
+	
+	
+	
+	label {
+	background: #FFCC66;
+	display: block;
+	float: left;
+	width: 39%;
+	length: 58%;
+	margin-left: 1%;
+	border: 1px solid #CCC;
+	text-align: right;
+	}
+	
+	label:hover{color: #DDEEFF; border: 1px solid #999;}
+	input:hover{background-color: #DDEEFF; border: 1px solid #999;}
+	
+
+	
+	#monForm .form_label_nostyle{
+	background: none;
+	}
+	
+input[type="submit"]{border: #DDEEFF 1px solid; width: 27%;}
+input[type="submit"]:hover{background-color: #66CC33;cursor: pointer;}
+input[type="reset"] {border: #DDEEFF 1px solid; width: 27%;}
+input[type="reset"]:hover {background-color: #E6484D;cursor: pointer;}
+
+
+
+
+#navcol {width: 200px; background-color: #F4FAFD;}
+#numcol {width: 150px;}
+
+table {
+	border-collapse: collapse;
+	margin: auto;
+	border-style: solid;
+	border-color: #DDEEFF;
+	border-width: 2px;
+	border-collapse: separate; 
+	border-spacing: 2px;
+	empty-cells: hide;
+	}
+	
+caption {
+	color: #DDEEFF;
+	background-color:green;
+	}
+
+th {
+	color: #996600;
+	background: #FFCC66;
+	border-style: solid;
+	border-color: #FFCC66;
+	border-width: 1px;
+}
+
+
+td {
+	border-style: solid;
+	border-color: #DDEEFF;
+	border-width: 1px;
+	padding-left: 10px;
+}
+	
